@@ -1,0 +1,6 @@
+from .options import OrmSqlalchemyOption,ServiceOption,RequestValidtorOption,SerializeOption
+class Development:
+ ORM_SQLACHEMY=OrmSqlalchemyOption.ORMSQLACHEMY
+ CHAT_BOT=ServiceOption.DEFAULT
+ REQUST_VALIDTOR=RequestValidtorOption.REUQEST_MODEL
+ SERIALIZE=SerializeOption.PYDANTIC_JSON
